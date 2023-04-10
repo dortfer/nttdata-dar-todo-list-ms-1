@@ -27,7 +27,7 @@ public class TaskController {
 	 * Service used to list all the tasks.
 	 * @return All the tasks.
 	 */
-	@GetMapping("/tasks")
+	@GetMapping("/tasksmod")
 	public List<Task> getTasks() {
 		return (List<Task>) this.taskRepository.findAll();
 	}
