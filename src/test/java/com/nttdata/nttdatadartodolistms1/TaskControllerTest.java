@@ -83,7 +83,7 @@ public class TaskControllerTest {
 
     	// find at least one element
     	this.mvc.perform( MockMvcRequestBuilders
-    		      .get("/tasksmod")
+    		      .get("/tasks")
     		      .accept(MediaType.APPLICATION_JSON))
     		      .andDo(print())
     		      .andExpect(status().isOk())
