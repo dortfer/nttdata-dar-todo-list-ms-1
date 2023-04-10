@@ -1,2 +1,2 @@
-nttdata-dar-todo-list-ms-1
-Proyecto de formación de NttData
+# nttdata-dar-todo-list-ms-1
+Backend de junior academy
